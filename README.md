@@ -15,10 +15,10 @@
 
 ---
 
-## 🚀 Proje Hakkında
+##  Proje Hakkında
 Bu uygulama, [qrmenu.otomasyonlar.net](https://qrmenu.otomasyonlar.net/) sisteminin yetkili (Admin) mobil versiyonudur. Restoran sahiplerinin menülerini diledikleri yerden anında güncelleyebilmesi, ürün eklemesi, restoran durumlarını (Açık/Kapalı) değiştirmesi ve müşteri geri bildirimlerini anlık takip etmesi için **%100 Kotlin & Jetpack Compose** kullanılarak tamamen native olarak geliştirilmiştir.
 
-## ✨ Öne Çıkan Özellikler
+##  Öne Çıkan Özellikler
 
 - 🔐 **Gelişmiş Kayıt & Giriş:** 5 adımlı, yüksek etkileşimli ve animasyonlu restoran kayıt akışı.
 - 🍔 **Detaylı Menü Yönetimi:** Yeni kategoriler ekleme, kategorilere ürün tanımlama, fiyatları anında güncelleme veya gizleme/silme.
@@ -27,7 +27,7 @@ Bu uygulama, [qrmenu.otomasyonlar.net](https://qrmenu.otomasyonlar.net/) sistemi
 - 💬 **Müşteri Geri Bildirimleri:** Masalardan gelen yorum, öneri ve talepleri canlı olarak takip edebilme.
 - 📱 **QR Kod Jeneratörü:** İşletmeye veya özel tablolara ait QR kodların uygulama içinden otomatik üretilmesi ve tek tuşla WhatsApp vs. üzerinden paylaşılabilmesi.
 
-## 🎨 UI/UX ve Animasyonlar
+##  UI/UX ve Animasyonlar
 Kullanıcı deneyimi en üst düzeyde tutulmuştur. Uygulamanın her köşesinde Compose'un gelişmiş animasyon APİ'leri kullanılmıştır:
 - Bouncing (yaylı) kart fizik tepkileri (`spring()` physics ile).
 - Her listede (Kategoriler, Ürünler, Geri Bildirimler) *Staggered Entrance* (gecikmeli ardışık giriş) slide ve fade animasyonları.
@@ -74,4 +74,4 @@ Projeyi kendi bilgisayarınıza klonlayıp derlemek isterseniz:
 Bu proje son kullanıcıyı etkileyecek detaylar (örneğin butonlardaki küçük yaylanmalar) göz önünde bulundurularak yapılmış, kod tekrarından kaçınılmış temiz MVVM yapısı ile kodlanmıştır. Modern Android geliştirme standartlarının (Jetpack Compose) kapasitesini göstermek için referans alınabilecek bir projedir.
 
 ---
-`"Basit restoran girişleri yerine, kullanıcıyı karşılayan ve WOW dedirten bir deneyim."`
+`"Basit restoran girişleri yerine, kullanıcıyı karşılayan bir deneyim."`
