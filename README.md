@@ -34,7 +34,7 @@ Kullanıcı deneyimi en üst düzeyde tutulmuştur. Uygulamanın her köşesinde
 - Zengin arka plan geçişleri (Linear ve Vertical Gradient'ler, Shimmer).
 - Özelleştirilmiş dinamik SVG ve sistem ikon kullanımları.
 
-## 🛠 Kullanılan Teknolojiler & Mimari
+##  Kullanılan Teknolojiler & Mimari
 
 - **Dil:** Kotlin
 - **Arayüz (UI):** Jetpack Compose (Modern Declerative UI)
@@ -43,7 +43,7 @@ Kullanıcı deneyimi en üst düzeyde tutulmuştur. Uygulamanın her köşesinde
 - **Navigasyon:** Compose Navigation API
 - **Yerel Depolama:** SharedPreferences (Token ve Session Yönetimi için)
 
-## 📂 Proje Dizin Yapısı
+##  Proje Dizin Yapısı
 ```text
 com.qrmobil.admin
 │
@@ -56,7 +56,7 @@ com.qrmobil.admin
 └── viewmodel/         # Tüm ekranların iş mantığı (API iletişimleri ve UI State tutucuları)
 ```
 
-## ⚙️ Kurulum (Developer İçin)
+##  Kurulum (Developer İçin)
 
 Projeyi kendi bilgisayarınıza klonlayıp derlemek isterseniz:
 
@@ -68,9 +68,9 @@ Projeyi kendi bilgisayarınıza klonlayıp derlemek isterseniz:
 3. Gradle senkronizasyonunun tamamlanmasını bekleyin.
 4. Bir Android cihaz bağlayarak veya emülatör üzerinden `Run` (Yeşil Oynat) butonuna tıklayın.
 
-> **⚠️ API Uyarısı:** Bu proje Retrofit üzerinden canlı bir sunucuya (`qrmenu.otomasyonlar.net/api/`) test/canlı tokenlar ile çıkmaktadır. Uygulamanın doğru tepki vermesi için backend tarafının `local.properties` veya `ApiService` içine doğru yapılandırıldığına emin olun. (Gizlilik nedeniyle tokenler projeye gömülmemiştir).
+> ** API Uyarısı:** Bu proje Retrofit üzerinden canlı bir sunucuya (`qrmenu.otomasyonlar.net/api/`) test/canlı tokenlar ile çıkmaktadır. Uygulamanın doğru tepki vermesi için backend tarafının `local.properties` veya `ApiService` içine doğru yapılandırıldığına emin olun. (Gizlilik nedeniyle tokenler projeye gömülmemiştir).
 
-## 👨‍💻 Geliştirme Süreci Hakkında Not
+##  Geliştirme Süreci Hakkında Not
 Bu proje son kullanıcıyı etkileyecek detaylar (örneğin butonlardaki küçük yaylanmalar) göz önünde bulundurularak yapılmış, kod tekrarından kaçınılmış temiz MVVM yapısı ile kodlanmıştır. Modern Android geliştirme standartlarının (Jetpack Compose) kapasitesini göstermek için referans alınabilecek bir projedir.
 
 ---
